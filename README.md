@@ -6,7 +6,7 @@ Follow a **DoorDash Drive** tracking link (the `drd.sh/…` short link or `doord
 
 ## Install (HACS custom repository)
 
-1. HACS → ⋮ → **Custom repositories** → add `https://github.com/thrivestorm2/ha-doordash-tracker`, category **Integration**.
+1. HACS → ⋮ → **Custom repositories** → add `https://github.com/thermitehash/ha-doordash-tracker`, category **Integration**.
 2. Install **DoorDash Tracker**, then restart Home Assistant.
 3. Settings → Devices & Services → **Add Integration** → DoorDash Tracker.
 
@@ -34,12 +34,12 @@ The integration's icon ships in `custom_components/doordash_tracker/brand/` and 
 
 ## Vestaboard Note blueprint
 
-[![Import blueprint](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fgithub.com%2Fthrivestorm2%2Fha-doordash-tracker%2Fblob%2Fmain%2Fblueprints%2Fautomation%2Fdoordash_tracker%2Fvestaboard_note_display.yaml)
+[![Import blueprint](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fgithub.com%2Fthermitehash%2Fha-doordash-tracker%2Fblob%2Fmain%2Fblueprints%2Fautomation%2Fdoordash_tracker%2Fvestaboard_note_display.yaml)
 
 **Manual import:** if the button doesn't open your Home Assistant, go to **Settings → Automations & scenes → Blueprints → Import blueprint** and paste this URL:
 
 ```
-https://github.com/thrivestorm2/ha-doordash-tracker/blob/main/blueprints/automation/doordash_tracker/vestaboard_note_display.yaml
+https://github.com/thermitehash/ha-doordash-tracker/blob/main/blueprints/automation/doordash_tracker/vestaboard_note_display.yaml
 ```
 
 Or copy the file into your config as `blueprints/automation/doordash_tracker/vestaboard_note_display.yaml`, then reload automations under **Developer tools → YAML**.

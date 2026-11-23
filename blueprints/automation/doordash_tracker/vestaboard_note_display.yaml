@@ -10,7 +10,7 @@ blueprint:
     (green = done, yellow = current, white = pending). Pressing Stop tracking
     during a takeover hands the board back straight away.
   domain: automation
-  source_url: https://github.com/thrivestorm2/ha-doordash-tracker/blob/main/blueprints/automation/doordash_tracker/vestaboard_note_display.yaml
+  source_url: https://github.com/thermitehash/ha-doordash-tracker/blob/main/blueprints/automation/doordash_tracker/vestaboard_note_display.yaml
   input:
     status_sensor:
       name: DoorDash status sensor

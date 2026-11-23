@@ -1,13 +1,13 @@
 {
   "domain": "doordash_tracker",
   "name": "DoorDash Tracker",
-  "codeowners": ["@thrivestorm2"],
+  "codeowners": ["@thermitehash"],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://github.com/thrivestorm2/ha-doordash-tracker",
+  "documentation": "https://github.com/thermitehash/ha-doordash-tracker",
   "integration_type": "service",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/thrivestorm2/ha-doordash-tracker/issues",
+  "issue_tracker": "https://github.com/thermitehash/ha-doordash-tracker/issues",
   "requirements": [],
   "single_config_entry": true,
   "version": "0.1.6"
